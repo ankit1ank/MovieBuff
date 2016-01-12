@@ -1,0 +1,18 @@
+PODS:
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - SwiftHTTP (1.0.2)
+  - Unbox (1.2.3)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.7)
+  - SwiftHTTP (~> 1.0.0)
+  - Unbox
+
+SPEC CHECKSUMS:
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
+  Unbox: 357412aec9fe10e0dcd36df61a2352a277037b62
+
+COCOAPODS: 0.39.0
