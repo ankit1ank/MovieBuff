@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32C3960D1C45467600B0CEF7 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3960C1C45467600B0CEF7 /* Toast.swift */; };
 		32C396101C4548DD00B0CEF7 /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3960F1C4548DD00B0CEF7 /* MovieDetailModel.swift */; };
 		32C396151C45663D00B0CEF7 /* HistoryPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C396141C45663D00B0CEF7 /* HistoryPopoverViewController.swift */; };
 		32D3B5481C4438260063FF83 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D3B5461C4438260063FF83 /* SwiftHTTP.framework */; };
 		32D3B5491C4438260063FF83 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D3B5471C4438260063FF83 /* Unbox.framework */; };
 		32D3B54D1C4443A00063FF83 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3B54C1C4443A00063FF83 /* MoviesTableViewCell.swift */; };
+		32E4C0991C476C1000F2A39A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E4C0981C476C1000F2A39A /* Toast.swift */; };
 		32EB04D41C441B5300961593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB04D31C441B5300961593 /* AppDelegate.swift */; };
 		32EB04D61C441B5300961593 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB04D51C441B5300961593 /* SearchViewController.swift */; };
 		32EB04D91C441B5300961593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB04D71C441B5300961593 /* Main.storyboard */; };
@@ -24,12 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32C3960C1C45467600B0CEF7 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = ../../Toast.swift; sourceTree = "<group>"; };
 		32C3960F1C4548DD00B0CEF7 /* MovieDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
 		32C396141C45663D00B0CEF7 /* HistoryPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPopoverViewController.swift; sourceTree = "<group>"; };
 		32D3B5461C4438260063FF83 /* SwiftHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHTTP.framework; path = "Pods/../build/Debug-iphoneos/SwiftHTTP.framework"; sourceTree = "<group>"; };
 		32D3B5471C4438260063FF83 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = "Pods/../build/Debug-iphoneos/Unbox.framework"; sourceTree = "<group>"; };
 		32D3B54C1C4443A00063FF83 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		32E4C0981C476C1000F2A39A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		32EB04D01C441B5300961593 /* MovieBuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EB04D31C441B5300961593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EB04D51C441B5300961593 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		32C396131C454EFF00B0CEF7 /* Other Files */ = {
 			isa = PBXGroup;
 			children = (
-				32C3960C1C45467600B0CEF7 /* Toast.swift */,
+				32E4C0981C476C1000F2A39A /* Toast.swift */,
 				32EB04D31C441B5300961593 /* AppDelegate.swift */,
 				32EB04DF1C441B5300961593 /* Info.plist */,
 			);
@@ -275,7 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EB04E61C44268100961593 /* DetailViewController.swift in Sources */,
-				32C3960D1C45467600B0CEF7 /* Toast.swift in Sources */,
+				32E4C0991C476C1000F2A39A /* Toast.swift in Sources */,
 				32EB04D61C441B5300961593 /* SearchViewController.swift in Sources */,
 				32D3B54D1C4443A00063FF83 /* MoviesTableViewCell.swift in Sources */,
 				32EB04E81C4426D000961593 /* MovieModel.swift in Sources */,
